@@ -22,6 +22,7 @@
 #include <linux/of_device.h>
 #include <linux/delay.h>
 #include <linux/spinlock.h>
+#include <nubia_hw_version.h>
 #include <linux/gpio.h>
 #include <linux/of_gpio.h>
 #include <linux/input.h>
@@ -33,8 +34,6 @@
 #ifdef CONFIG_NUBIA_HW_GPIO_BY_PM
 #include <linux/qpnp/pin.h>
 #endif
-
-#include "nubia_hw_version.h"
 
 #ifdef CONFIG_NUBIA_HW_VERSION_DEBUG
 static int debug_value = 1;
